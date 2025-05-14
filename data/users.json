@@ -1,0 +1,79 @@
+{
+  "teachers": [
+    {
+      "id": "t1",
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@school.edu",
+      "subject": "Mathematics",
+      "department": "Science",
+      "classesTeaching": ["Math101", "Math202", "Calculus"],
+      "officeHours": "Mon-Wed 2-4pm",
+      "employeeId": "TEA001"
+    },
+    {
+      "id": "t2",
+      "firstName": "Sarah",
+      "lastName": "Johnson",
+      "email": "sarah.johnson@school.edu",
+      "subject": "English Literature",
+      "department": "Humanities",
+      "classesTeaching": ["Eng101", "Creative Writing", "World Literature"],
+      "officeHours": "Tue-Thu 1-3pm",
+      "employeeId": "TEA002"
+    },
+    {
+      "id": "t3",
+      "firstName": "Michael",
+      "lastName": "Chen",
+      "email": "michael.chen@school.edu",
+      "subject": "Physics",
+      "department": "Science",
+      "classesTeaching": ["Physics101", "Advanced Physics", "Lab Physics"],
+      "officeHours": "Wed-Fri 3-5pm",
+      "employeeId": "TEA003"
+    }
+  ],
+  "students": [
+    {
+      "id": "s1",
+      "firstName": "Emma",
+      "lastName": "Wilson",
+      "email": "emma.wilson@student.edu",
+      "grade": 11,
+      "enrolledClasses": ["Math101", "Eng101", "Physics101"],
+      "studentId": "STU001",
+      "gpa": 3.8
+    },
+    {
+      "id": "s2",
+      "firstName": "James",
+      "lastName": "Brown",
+      "email": "james.brown@student.edu",
+      "grade": 10,
+      "enrolledClasses": ["Math101", "Creative Writing", "Physics101"],
+      "studentId": "STU002",
+      "gpa": 3.5
+    },
+    {
+      "id": "s3",
+      "firstName": "Sofia",
+      "lastName": "Garcia",
+      "email": "sofia.garcia@student.edu",
+      "grade": 12,
+      "enrolledClasses": ["Calculus", "World Literature", "Advanced Physics"],
+      "studentId": "STU003",
+      "gpa": 4.0
+    },
+    {
+      "id": "s4",
+      "firstName": "Lucas",
+      "lastName": "Kim",
+      "email": "lucas.kim@student.edu",
+      "grade": 11,
+      "enrolledClasses": ["Math202", "Eng101", "Lab Physics"],
+      "studentId": "STU004",
+      "gpa": 3.7
+    }
+  ]
+}
